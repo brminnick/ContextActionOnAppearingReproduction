@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextActionOnAppearingRep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextActionOnAppearingReproduction.Droid", "Droid\ContextActionOnAppearingReproduction.Droid.csproj", "{C7A5BDDD-05D0-4557-877E-4CF63D8747BE}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TabbedPageContextActionReproduction", "..\GitHub\TabbedPageContextActionReproduction\TabbedPageContextActionReproduction\TabbedPageContextActionReproduction.shproj", "{9414A91B-5DD1-40E9-8CD5-A7D155C91766}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
