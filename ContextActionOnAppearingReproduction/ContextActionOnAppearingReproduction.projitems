@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{B3DF7E77-EF31-4D65-8A2A-71EB07B8B886}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ContextActionOnAppearingReproduction</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyListPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyTabbedPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyTextCell.cs" />
+  </ItemGroup>
+</Project>
